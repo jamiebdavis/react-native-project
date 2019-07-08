@@ -1,12 +1,12 @@
-/* eslint-disable prettier/prettier */
 //Import a library to help create component.
-import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import React from "react";
+import { AppRegistry } from "react-native";
+import Header from "./src/components/header";
 
 //Create a component.
 const App = () => {
-    return <Text>Some Text</Text>;
+  return <Header />;
 };
 
 //Render it to the device.
-AppRegistry.registerComponent('albums', () => App);
+AppRegistry.registerComponent("albums", () => App);
